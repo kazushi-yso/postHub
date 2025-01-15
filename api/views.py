@@ -13,6 +13,7 @@ class HelloAPIView(APIView):
         a = 1
         return Response("HELLO!!!")
 
+# やっほー
 class UserAPIView(APIView):
 
     def post(self, request):
